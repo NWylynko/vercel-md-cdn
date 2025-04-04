@@ -3,7 +3,7 @@ import path from "path";
 
 const main = async () => {
   const filePath = path.join(__dirname, "../docs/index.md");
-  const distPath = path.join(__dirname, "../output/index.md");
+  const distPath = path.join(__dirname, "../public/index.md");
 
   const index = await fs.readFile(filePath);
 

@@ -1,5 +1,4 @@
-dist/
-output/
+public/
 
 
 node_modules/
